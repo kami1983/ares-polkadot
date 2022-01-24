@@ -6,16 +6,16 @@ edition = "2018"
 
 [dependencies]
 # substrate primitives
-sp-core = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sp-blockchain = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
+sp-core = { git = "https://github.com/zzm-Zhong/substrate", branch = "polkadot-v0.9.13-fix" }
+sp-blockchain = { git = "https://github.com/zzm-Zhong/substrate", branch = "polkadot-v0.9.13-fix" }
+sp-runtime = { git = "https://github.com/zzm-Zhong/substrate", branch = "polkadot-v0.9.13-fix" }
 
 # frame pallets
-system = { package = "frame-system", git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-balances = { package = "pallet-balances", git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
+system = { package = "frame-system", git = "https://github.com/zzm-Zhong/substrate", branch = "polkadot-v0.9.13-fix" }
+balances = { package = "pallet-balances", git = "https://github.com/zzm-Zhong/substrate", branch = "polkadot-v0.9.13-fix" }
 
 # substrate client libs
-sc-client-api = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
+sc-client-api = { git = "https://github.com/zzm-Zhong/substrate", branch = "polkadot-v0.9.13-fix" }
 
 # polkadot deps
 polkadot-simnet = { path = "../common" }

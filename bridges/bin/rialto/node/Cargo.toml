@@ -25,35 +25,35 @@ rialto-runtime = { path = "../runtime" }
 # Substrate Dependencies
 
 
-frame-benchmarking = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-frame-benchmarking-cli = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-node-inspect = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-pallet-transaction-payment-rpc = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sc-basic-authorship = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sc-cli = { git = "https://github.com/paritytech/substrate", features = ["wasmtime"] , branch = "polkadot-v0.9.13" }
-sc-client-api = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sc-consensus = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sc-consensus-aura = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sc-executor = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sc-finality-grandpa = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sc-finality-grandpa-rpc = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sc-keystore = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sc-rpc = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sc-service = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sc-telemetry = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sc-transaction-pool = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sp-consensus = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sp-consensus-aura = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sp-core = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sp-finality-grandpa = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sp-inherents = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-sp-timestamp = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-substrate-frame-rpc-system = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
+frame-benchmarking = { git = "https://github.com/zzm-Zhong/substrate", branch = "polkadot-v0.9.13-fix" }
+frame-benchmarking-cli = { git = "https://github.com/zzm-Zhong/substrate", branch = "polkadot-v0.9.13-fix" }
+node-inspect = { git = "https://github.com/zzm-Zhong/substrate", branch = "polkadot-v0.9.13-fix" }
+pallet-transaction-payment-rpc = { git = "https://github.com/zzm-Zhong/substrate", branch = "polkadot-v0.9.13-fix" }
+sc-basic-authorship = { git = "https://github.com/zzm-Zhong/substrate", branch = "polkadot-v0.9.13-fix" }
+sc-cli = { git = "https://github.com/zzm-Zhong/substrate", features = ["wasmtime"] , branch = "polkadot-v0.9.13-fix" }
+sc-client-api = { git = "https://github.com/zzm-Zhong/substrate", branch = "polkadot-v0.9.13-fix" }
+sc-consensus = { git = "https://github.com/zzm-Zhong/substrate", branch = "polkadot-v0.9.13-fix" }
+sc-consensus-aura = { git = "https://github.com/zzm-Zhong/substrate", branch = "polkadot-v0.9.13-fix" }
+sc-executor = { git = "https://github.com/zzm-Zhong/substrate", branch = "polkadot-v0.9.13-fix" }
+sc-finality-grandpa = { git = "https://github.com/zzm-Zhong/substrate", branch = "polkadot-v0.9.13-fix" }
+sc-finality-grandpa-rpc = { git = "https://github.com/zzm-Zhong/substrate", branch = "polkadot-v0.9.13-fix" }
+sc-keystore = { git = "https://github.com/zzm-Zhong/substrate", branch = "polkadot-v0.9.13-fix" }
+sc-rpc = { git = "https://github.com/zzm-Zhong/substrate", branch = "polkadot-v0.9.13-fix" }
+sc-service = { git = "https://github.com/zzm-Zhong/substrate", branch = "polkadot-v0.9.13-fix" }
+sc-telemetry = { git = "https://github.com/zzm-Zhong/substrate", branch = "polkadot-v0.9.13-fix" }
+sc-transaction-pool = { git = "https://github.com/zzm-Zhong/substrate", branch = "polkadot-v0.9.13-fix" }
+sp-consensus = { git = "https://github.com/zzm-Zhong/substrate", branch = "polkadot-v0.9.13-fix" }
+sp-consensus-aura = { git = "https://github.com/zzm-Zhong/substrate", branch = "polkadot-v0.9.13-fix" }
+sp-core = { git = "https://github.com/zzm-Zhong/substrate", branch = "polkadot-v0.9.13-fix" }
+sp-finality-grandpa = { git = "https://github.com/zzm-Zhong/substrate", branch = "polkadot-v0.9.13-fix" }
+sp-inherents = { git = "https://github.com/zzm-Zhong/substrate", branch = "polkadot-v0.9.13-fix" }
+sp-runtime = { git = "https://github.com/zzm-Zhong/substrate", branch = "polkadot-v0.9.13-fix" }
+sp-timestamp = { git = "https://github.com/zzm-Zhong/substrate", branch = "polkadot-v0.9.13-fix" }
+substrate-frame-rpc-system = { git = "https://github.com/zzm-Zhong/substrate", branch = "polkadot-v0.9.13-fix" }
 
 [build-dependencies]
-substrate-build-script-utils = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
-frame-benchmarking-cli = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.13" }
+substrate-build-script-utils = { git = "https://github.com/zzm-Zhong/substrate", branch = "polkadot-v0.9.13-fix" }
+frame-benchmarking-cli = { git = "https://github.com/zzm-Zhong/substrate", branch = "polkadot-v0.9.13-fix" }
 
 [features]
 default = []
